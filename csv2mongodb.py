@@ -87,9 +87,6 @@ if args.field_delimiter:
 if args.with_header:
     headers = args.with_header.split(',')
 
-# getting our connection string.
-conn_string = get_conn_vals(args)
-
 # attempt to connect to mongodb - if there was a problem, we should just exit
 try:
     conn = pymongo.MongoClient(get_conn_vals(args)) # connection
