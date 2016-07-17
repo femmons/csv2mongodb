@@ -29,7 +29,7 @@ parser.add_argument('--database', required=True, \
 parser.add_argument('--collection', required=True, \
                     help = 'The collection to add records to.')
 parser.add_argument('--field-delimiter', \
-                    help = 'The field delimiter in the csv. Will default to
+                    help = 'The field delimiter in the csv. Will default to'
                     'comma.')
 parser.add_argument('--host', \
                     help = 'Hostname or ip address of the mondodb server.')
